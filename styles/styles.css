@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+.slider{
+    width: 100%;
+    min-height: 80vh;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider > img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slider-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    z-index: 1;
+}
+
+.slider-content h1{
+    color: #FFF;
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+.slider-content p{
+    color: #FFF;
+    font-size: 2rem;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.slider-content .slider-intro{
+    font-size: 1rem;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.slider-content .slider-description{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.slider-button{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 25px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: .2s ease;
+}
+
+.slider-button:hover{
+    background: #FFF;
+    color: #000;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.dark{
+    background: #000;
+    color: #fff;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w32{
+    width: 32%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.wrap{
+    text-wrap: wrap;
+}
+
+.pad20{
+    padding-block: 20px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+
+/* ============================================================
+   TITRES DE SECTIONS
+   ============================================================ */
+
+.section-heading{
+    margin-bottom: 60px;
+}
+
+.section-heading h2{
+    margin-bottom: 20px;
+}
+
+.section-heading > p:last-child{
+    max-width: 700px;
+    margin-inline: auto;
+    font-size: 1.3rem;
+}
+
+.section-label{
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+
+/* ============================================================
+   PROJETS
+   ============================================================ */
+
+.projects-section{
+    padding-bottom: 120px;
+}
+
+.projects-link{
+    margin-bottom: 40px;
+}
+
+.projects-link a{
+    color: #000;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.projects-link a:hover{
+    text-decoration: underline;
+}
+
+.realisation{
+    height: auto;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.realisation h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    width: max-content;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.realisation a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.realisation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: 1s ease;
+}
+
+.realisation:hover img{
+    filter: brightness(50%);
+}
+
+.realisation:hover h3{
+    opacity: 1;
+}
+
+
+/* ============================================================
+   A PROPOS
+   ============================================================ */
+
+.about-section{
+    padding: 120px 0;
+}
+
+.about-content{
+    align-items: center;
+    gap: 80px;
+}
+
+.about-title h2{
+    margin-bottom: 35px;
+}
+
+.about-title .section-label{
+    margin-bottom: 15px;
+}
+
+.section-button{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: .2s ease;
+}
+
+.section-button:hover{
+    text-decoration: underline;
+}
+
+.about-text{
+    border-left: 1px solid #FFF;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.about-text p{
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+}
+
+.about-text p:last-child{
+    margin-bottom: 0;
+}
+
+
+/* ============================================================
+   COMPETENCES
+   ============================================================ */
+
+.skills-section{
+    padding: 120px 0;
+}
+
+.skills-list{
+    align-items: stretch;
+}
+
+.skill{
+    background: #FFF;
+    border: 1px solid #000;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    transition: .2s ease;
+}
+
+.skill:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill img{
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.skill h3{
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.skill p{
+    color: #000;
+    font-size: 1.1rem;
+}
+
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+
+.contact-preview{
+    border-top: 1px solid #000;
+}
+
+.contact-preview-info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 35px;
+}
+
+.contact-preview-info a{
+    color: #000;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.contact-preview-info a:hover{
+    text-decoration: underline;
+}
+
+.contact-button{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #000;
+    color: #FFF;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: .2s ease;
+}
+
+.contact-button:hover{
+    background: #FFF;
+    color: #000;
+}
+
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    z-index: 999;
+    padding-block: 10px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.7);
+}
+
+.header-logo{
+    display: block;
+}
+
+.header-logo img{
+    width: 66px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+    box-sizing: border-box;
+    transition: .2s ease;
+}
+
+.header-menu a:hover{
+    background-color: #F2F2F2;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer{
+    border-top: 1px solid #000;
+}
+
+footer .section{
+    padding: 30px 0;
+}
+
+footer p{
+    font-size: 1rem;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media screen and (max-width: 900px){
+
+    .boxed{
+        width: 90%;
+    }
+
+    .slider-content h1{
+        font-size: 4rem;
+    }
+
+    .slider-content p{
+        font-size: 1.6rem;
+    }
+
+    .about-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about-title,
+    .about-text{
+        width: 100%;
+    }
+
+    .about-text{
+        border-left: none;
+        border-top: 1px solid #FFF;
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .skills-list{
+        flex-wrap: wrap;
+    }
+
+    .skill{
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .header-menu a{
+        padding: 10px;
+        font-size: .9rem;
+    }
+
+    .slider{
+        min-height: 70vh;
+    }
+
+    .slider-content h1{
+        font-size: 2.8rem;
+    }
+
+    .slider-content p{
+        font-size: 1.3rem;
+    }
+
+    .slider-content .slider-description{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 2.3rem;
+    }
+
+    .section{
+        padding: 70px 0;
+    }
+
+    .realisation{
+        width: 100%;
+    }
+
+    .skill{
+        width: 100%;
+    }
+
+    .contact-preview-info{
+        flex-direction: column;
+        gap: 15px;
+    }
+}

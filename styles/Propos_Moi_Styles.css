@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.boxed{
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    z-index: 999;
+    padding-block: 10px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+}
+
+.header-logo{
+    display: block;
+}
+
+.header-logo img{
+    display: block;
+    width: 66px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-menu a{
+    display: block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.header-menu a:hover{
+    background-color: #F2F2F2;
+}
+
+
+/* ============================================================
+   TITRES
+   ============================================================ */
+
+.section-label{
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.section-heading{
+    margin-bottom: 60px;
+}
+
+.section-heading h2{
+    margin-bottom: 20px;
+}
+
+.section-heading > p:last-child{
+    max-width: 700px;
+    margin-inline: auto;
+    font-size: 1.3rem;
+}
+
+
+/* ============================================================
+   INTRODUCTION
+   ============================================================ */
+
+.about-hero{
+    min-height: 420px;
+    margin-top: 86px;
+    padding: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #FFF;
+}
+
+.about-hero h1{
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.about-hero .section-label{
+    color: #FFF;
+}
+
+.about-hero-description{
+    font-size: 1.6rem;
+}
+
+
+/* ============================================================
+   PRÉSENTATION
+   ============================================================ */
+
+.about-presentation{
+    padding: 120px 0;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: start;
+    gap: 0;
+}
+
+.about-heading{
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.about-heading h2{
+    max-width: 400px;
+}
+
+.about-text{
+    border-left: 1px solid #000;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.about-text p{
+    font-size: 1.35rem;
+    margin-bottom: 25px;
+}
+
+.about-text p:last-child{
+    margin-bottom: 0;
+}
+
+
+/* ============================================================
+   DÉMARCHE
+   ============================================================ */
+
+.about-approach{
+    background: #000;
+    color: #FFF;
+    padding: 120px 0;
+}
+
+.about-approach .section-label{
+    color: #FFF;
+}
+
+.approach-list{
+    align-items: stretch;
+}
+
+.approach-card{
+    width: 25%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    transition: .2s ease;
+}
+
+.approach-card:hover{
+    transform: translateY(-5px);
+    background: #151515;
+}
+
+.approach-number{
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    color: #BDBDBD;
+}
+
+.approach-card h3{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.approach-card p{
+    font-size: 1.1rem;
+}
+
+
+/* ============================================================
+   COMPÉTENCES
+   ============================================================ */
+
+.about-skills{
+    padding: 120px 0;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.skill{
+    width: calc((100% - 60px) / 4);
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background: #FFF;
+    transition: .2s ease;
+}
+
+.skill:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill h3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.skill p{
+    font-size: 1.1rem;
+}
+
+
+/* ============================================================
+   LOGICIELS
+   ============================================================ */
+
+.about-tools{
+    background: #F2F2F2;
+}
+
+.tools-description{
+    max-width: 700px;
+    margin: 0 auto 35px;
+    font-size: 1.3rem;
+}
+
+.tools-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tools-list span{
+    display: inline-block;
+    padding: 12px 25px;
+    border: 1px solid #000;
+    background: #FFF;
+    font-size: 1.2rem;
+}
+
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+
+.about-contact{
+    padding: 120px 0;
+}
+
+.about-contact > .boxed > p:not(.section-label){
+    max-width: 750px;
+    margin: 0 auto 30px;
+    font-size: 1.3rem;
+}
+
+.about-button{
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.about-button:hover{
+    background: #FFF;
+    color: #000;
+}
+
+.about-secondary-link{
+    display: block;
+    width: fit-content;
+    margin: 25px auto 0;
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.about-secondary-link:hover{
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer{
+    border-top: 1px solid #000;
+}
+
+footer .section{
+    padding: 30px 0;
+}
+
+footer p{
+    font-size: 1rem;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 4rem;
+    }
+
+    .about-grid{
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .about-heading{
+        padding-right: 0;
+    }
+
+    .about-text{
+        border-left: none;
+        border-top: 1px solid #000;
+        padding: 35px 0 0;
+    }
+
+    .approach-list,
+    .skills-list{
+        flex-wrap: wrap;
+    }
+
+    .approach-card,
+    .skill{
+        width: calc((100% - 20px) / 2);
+    }
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 2.8rem;
+    }
+
+    h2{
+        font-size: 2.3rem;
+    }
+
+    .section{
+        padding: 70px 0;
+    }
+
+    .header-menu a{
+        padding: 10px;
+        font-size: .9rem;
+    }
+
+    .about-hero{
+        min-height: 350px;
+        padding: 70px 0;
+    }
+
+    .about-hero-description{
+        font-size: 1.2rem;
+    }
+
+    .about-text p{
+        font-size: 1.15rem;
+    }
+
+    .approach-card,
+    .skill{
+        width: 100%;
+    }
+
+    .approach-card p,
+    .skill p{
+        font-size: 1.05rem;
+    }
+
+    .tools-list{
+        gap: 10px;
+    }
+
+    .tools-list span{
+        font-size: 1rem;
+        padding: 10px 16px;
+    }
+}

@@ -1,0 +1,92 @@
+
+[
+    {
+        "IdSection": 0,
+        "Name": "Debug",
+        "Year": "2026",
+        "NbSection": 16,
+        "Tags": [
+            "Debug"
+        ]
+    },
+    {
+        "IdSection": 1,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+    },
+    {
+        "IdSection": 2,
+        "Name": "Section sombre",
+        "HTMLShema": "<div class='section dark'><div class='boxed text-center'><h2>Section sombre</h2><p>Une section avec un fond sombre, utile pour créer un contraste visuel et rythmer la présentation d'un projet.</p></div></div>"
+    },
+    {
+        "IdSection": 3,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Texte et image</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 4,
+        "Name": "Image seule",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Image seule</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+    },
+    {
+        "IdSection": 5,
+        "Name": "Comparaison de deux images",
+        "HTMLShema": "<section class='section'><div class='boxed text-center'><h2>Avant / Après</h2><p>Comparaison entre deux versions d'un même projet.</p><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Version initiale'><h3>Version initiale</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Version améliorée'><h3>Version améliorée</h3><p>Présentation du résultat après les modifications.</p></div></div></div></section>"
+    },
+    {
+        "IdSection": 6,
+        "Name": "Deux colonnes",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Deux colonnes</h2><div class='pop-media-grid'><div class='pop-media-item'><h3>Colonne de gauche</h3><p>Cette colonne peut présenter une explication, un contexte ou une description technique.</p></div><div class='pop-media-item'><h3>Colonne de droite</h3><p>La seconde colonne peut compléter le propos avec des informations supplémentaires, une liste ou un autre contenu textuel.</p></div></div></div></div>"
+    },
+    {
+        "IdSection": 7,
+        "Name": "Liste",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Liste</h2><p>Une liste permet de présenter clairement les étapes, les objectifs ou les outils utilisés.</p><ul><li>Modélisation et création des ressources.</li><li>Travail sur les matériaux et les textures.</li><li>Intégration et mise en scène.</li><li>Vérification et amélioration du résultat final.</li></ul></div></div>"
+    },
+    {
+        "IdSection": 8,
+        "Name": "Galerie d’images",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Galerie d’images</h2><p>Plusieurs visuels peuvent être regroupés dans une même section pour présenter différentes vues d’un projet.</p><div class='pop-media-grid pop-gallery'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio - image 1'></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio - image 2'></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio - image 3'></div></div></div></div>"
+    },
+    {
+        "IdSection": 9,
+        "Name": "Citation",
+        "HTMLShema": "<div class='section dark'><div class='boxed text-center'><blockquote><p>Un projet réussi repose autant sur la qualité du résultat que sur l’attention portée aux détails.</p></blockquote><p>Une citation ou une idée importante peut ainsi être mise en évidence.</p></div></div>"
+    },
+    {
+        "IdSection": 10,
+        "Name": "Bloc encadré",
+        "HTMLShema": "<div class='section'><div class='boxed'><div class='pop-info-box'><h2>Point important</h2><p>Ce bloc permet de faire ressortir une information particulière : une contrainte technique, un objectif, une difficulté rencontrée ou un résultat notable.</p></div></div></div>"
+    },
+    {
+        "IdSection": 11,
+        "Name": "Liens et bouton",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Liens et ressources</h2><p>Une section peut orienter le visiteur vers un projet, une ressource ou un site externe.</p><p><a class='pop-button' href='https://www.unrealengine.com/' target='_blank' rel='noopener noreferrer'>Découvrir Unreal Engine</a></p><p><a href='../Realisations.html?All'>Retour aux projets</a></p></div></div>"
+    },
+    {
+        "IdSection": 12,
+        "Name": "Vidéo seule",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Vidéo seule</h2><p>Une vidéo peut présenter une animation, une démonstration en temps réel ou un aperçu du résultat final.</p><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+    },
+    {
+        "IdSection": 13,
+        "Name": "Vidéo avec texte",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Vidéo avec texte</h2><div class='pop-media-grid'><div class='pop-media-item'><p>La vidéo peut être accompagnée d’un texte explicatif placé à côté. Cette présentation est utile pour détailler une animation, expliquer une fonctionnalité ou décrire le fonctionnement d’une simulation.</p><p>Sur un écran étroit, les deux éléments se placent l’un sous l’autre.</p></div><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-texte.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div></div></div>"
+    },
+    {
+        "IdSection": 14,
+        "Name": "Vidéo avec image",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Vidéo avec image</h2><p>Cette disposition associe une vidéo à une image fixe pour comparer deux rendus, montrer une référence ou présenter le résultat à côté de son aperçu animé.</p><div class='pop-media-grid'><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-image.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div><p class='pop-video-caption'>Vidéo de démonstration</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio associé à la vidéo'></div></div></div></div>"
+    },
+    {
+        "IdSection": 15,
+        "Name": "Deux vidéos",
+        "HTMLShema": "<div class='section dark'><div class='boxed'><h2>Deux vidéos côte à côte</h2><p>Cette disposition permet de comparer deux animations, deux versions d’un modèle ou deux étapes d’une simulation.</p><div class='pop-media-grid'><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-comparaison-1.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div><p class='pop-video-caption'>Version 1</p></div><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-comparaison-2.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div><p class='pop-video-caption'>Version 2</p></div></div></div></div>"
+    },
+    {
+        "IdSection": 16,
+        "Name": "Conclusion",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Conclusion</h2><p>Cette page de test sert de catalogue des mises en page disponibles. Elle pourra évoluer au fur et à mesure que de nouveaux composants seront ajoutés au système POP.</p><a class='pop-button' href='../Realisations.html?All'>Retour aux projets</a></div></div>"
+    }
+]

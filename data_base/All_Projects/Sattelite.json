@@ -1,0 +1,86 @@
+[
+    {
+        "IdSection": 0,
+        "Name": "Refonte 3D Sattelite",
+        "Year": "2026",
+        "NbSection": 13,
+        "Tags": [
+            "Scolaire",
+            "Professionel",
+            "Maya",
+            "Photoshop",
+            "Modélisation 3D"
+        ]
+    },
+    {
+        "IdSection": 1,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction</h2><p>Ce projet, réalisé sur une période de six semaines, avait pour objectif de moderniser d'anciennes scènes 3D de satellites utilisées par l'entreprise pour la production et la commercialisation d'images de synthèse. Créés plusieurs années auparavant, ces modèles nécessitaient une mise à jour afin de répondre aux exigences actuelles en matière de qualité visuelle et technique.</p><p>La mission qui m'a été confiée portait sur la modélisation et le texturing de différents éléments (props), ainsi que sur l'amélioration des modèles de satellites existants.</p></div></div>"
+    },
+
+
+    {
+        "IdSection": 2,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Partie 1 : Cables Tressé</h2><p>Ma première mission consistait à créer un matériau reproduisant l'apparence d'un tuyau tressé, destiné à remplacer les anciens tuyaux présents sur les modèles 3D de satellites. L'objectif était d'améliorer leur rendu visuel en apportant davantage de réalisme et de finesse aux détails de leur surface.</p></div></div>"
+    },
+    {
+        "IdSection": 3,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>Pour obtenir ce résultat, j'ai commencé par concevoir dans Photoshop une texture reproduisant le motif caractéristique du tressage. Réalisée de manière à pouvoir être répétée sans raccord visible, elle permet d'obtenir un motif continu et de s'adapter à différentes longueurs et dimensions de tuyaux.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/texture_cable.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 4,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/Maya_code.png' alt='Logo du portfolio'></div><div class='pop-media-item'><p>Une fois la texture créée, je l'ai intégrée dans Maya à l'aide d'un matériau 'Arnold Standard Surface (aiStandardSurface)'. Elle était connectée au paramètre 'Base Color', avec la possibilité d'ajuster la couleur du matériau afin de représenter différents types de revêtements.</p><p>J'ai également réutilisé cette texture en tant que 'Bump Map' pour simuler le relief caractéristique du tressage. Cette méthode permet de renforcer l'aspect tridimensionnel et le réalisme de la surface du tuyau, sans nécessiter la modélisation géométrique de chaque détail du motif.</p></div></div></div></div>"
+    },
+    {
+        "IdSection": 5,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>Le résultat obtenu dans Maya présente un tuyau tressé auquel le matériau apporte un relief visuel réaliste, tout en permettant de modifier facilement son apparence selon les besoins du projet. Une fois le matériau finalisé, j'ai réalisé le rig du tuyau afin de pouvoir le manipuler et le déformer selon différentes positions. Une attention particulière a été portée à la gestion des UV et de la texture, pour préserver autant que possible la régularité du motif tressé lors des flexions. Le résultat est ainsi un tuyau facilement manipulable, tout en conservant un rendu visuel propre et cohérent. </p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/Cables-Tresse.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+
+
+    {
+        "IdSection": 6,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Partie 2 : Satellite OSIRIS-REX</h2><p>J'ai commencé ma mission avec le satellite OSIRIS-REX. En m'appuyant sur de nombreuses références du satellite réel, j'ai remplacé les anciens modèles de tuyaux par ceux que j'avais précédemment créés, afin d'améliorer le réalisme et la cohérence du modèle 3D.</p><p>J'ai ensuite analysé les différents éléments du satellite afin d'identifier et de corriger les erreurs de modélisation, de remplacer certaines pièces et d'en ajouter de nouvelles lorsque cela était nécessaire. J'ai également optimisé la géométrie de plusieurs éléments en réduisant le nombre d'arêtes (Edges) lorsque cela n'avait pas d'incidence sur le rendu final. Ces interventions ont permis d'améliorer la qualité visuelle du modèle tout en allégeant sa géométrie et en facilitant son utilisation pour les futurs rendus.</p></div></div>"
+    },
+    {
+        "IdSection": 7,
+        "Name": "Comparaison de deux images",
+        "HTMLShema": "<section class='section'><div class='boxed text-center'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Osiris_old_1.png' alt='Version initiale'><h3>Version initiale</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Osiris_new_1.png' alt='Version améliorée'><h3>Version améliorée</h3><p>Présentation du résultat après les modifications.</p></div></div></div></section>"
+    },
+    {
+        "IdSection": 8,
+        "Name": "Comparaison de deux images",
+        "HTMLShema": "<section class='section'><div class='boxed text-center'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Osiris_old_2.png' alt='Version initiale'><h3>Version initiale</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Osiris_new_2.png' alt='Version améliorée'><h3>Version améliorée</h3><p>Présentation du résultat après les modifications.</p></div></div></div></section>"
+    },
+    {
+        "IdSection": 9,
+        "Name": "Comparaison de deux images",
+        "HTMLShema": "<section class='section'><div class='boxed text-center'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Osiris_old_3.png' alt='Version initiale'><h3>Version initiale</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Osiris_new_3.png' alt='Version améliorée'><h3>Version améliorée</h3><p>Présentation du résultat après les modifications.</p></div></div></div></section>"
+    },
+
+
+    {
+        "IdSection": 10,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Partie 3 : Satellite NEAR</h2><p>J'ai poursuivi cette mission avec le satellite NEAR, en m'appuyant sur des références du satellite réel pour examiner les différents éléments de son modèle 3D. Cette analyse m'a permis d'identifier plusieurs imperfections nécessitant des corrections ou une reconstruction de certaines pièces dont la géométrie n'était pas satisfaisante.</p><p>J'ai ainsi retravaillé plusieurs éléments afin de corriger les erreurs de modélisation et d'améliorer leur qualité géométrique, tout en optimisant certaines pièces lorsque cela était possible. Ces ajustements ont contribué à renforcer la fidélité du modèle par rapport au satellite réel et à améliorer sa qualité visuelle en vue de ses futurs rendus.</p></div></div>"
+    },
+    {
+        "IdSection": 11,
+        "Name": "Comparaison de image + Vidéo",
+        "HTMLShema": "<section class='section grey'><div class='boxed text-center'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Rendu_old1.png' alt='Version initiale'><h3>Ancienne Version</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/vid/Sattelite/vid_Rendu_new1.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div><h3>Nouvelle Version</h3><p>Présentation de la première version du modèle.</p></div></div></div></section>"
+    },
+    {
+        "IdSection": 12,
+        "Name": "Comparaison de image + Vidéo",
+        "HTMLShema": "<section class='section grey'><div class='boxed text-center'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Rendu_old2.png' alt='Version initiale'><h3>Ancienne Version</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/vid/Sattelite/vid_Rendu_new2.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div><h3>Nouvelle Version</h3><p>Présentation de la première version du modèle.</p></div></div></div></section>"
+    },
+    {
+        "IdSection": 13,
+        "Name": "Comparaison de image + Vidéo",
+        "HTMLShema": "<section class='section grey'><div class='boxed text-center'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Sattelitte/img_Rendu_old3.png' alt='Version initiale'><h3>Ancienne Version</h3><p>Présentation de la première version du modèle.</p></div><div class='pop-media-item'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/vid/Sattelite/vid_Rendu_new3.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div><h3>Nouvelle Version</h3><p>Présentation de la première version du modèle.</p></div></div></div></section>"
+    }
+]

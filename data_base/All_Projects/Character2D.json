@@ -1,0 +1,30 @@
+[
+    {
+        "IdSection": 0,
+        "Name": "Character Art 2D",
+        "Year": "2026",
+        "NbSection": 3,
+        "Tags": [
+            "Personnel",
+            "Scolaire",
+            "Photoshop",
+            "Character Art",
+            "Design 2D"
+        ]
+    },
+    {
+        "IdSection": 1,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction</h2><p>Ce projet, mi-personnel, mi-scolaire, de Character Design 2D a débuté en 2024 et a évolué progressivement au fil de mes travaux et de mes expérimentations. Au fur et à mesure, j'ai cherché à améliorer mes personnages en travaillant sur leurs proportions, leur apparence générale, leurs traits physiques et leur expressivité, afin d'obtenir un résultat toujours plus abouti.</p><p style='margin-top: 15px;'>La présentation proposée sur cette page témoigne de cette évolution et représente le résultat de ces améliorations successives, reflétant les compétences que j'ai développées en conception de personnages 2D.</p></div></div>"
+    },
+    {
+        "IdSection": 2,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Présentation du personnage en vue 3/4</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette vue du personnage en 3/4 permet de présenter plus précisément son apparence et de mettre en valeur les volumes de sa silhouette. Elle permet notamment d'observer les proportions, les détails de son visage, sa coiffure ainsi que les différents éléments de son design.</p><p style='margin-top: 15px;'>Ce travail vise à conserver une apparence cohérente tout en donnant davantage de profondeur au personnage grâce à cette perspective.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Character2D/Charac2DGirl-full_3-4.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 3,
+        "Name": "Galerie d’images",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Expressions Faciales</h2><p>J'ai également réalisé plusieurs expressions faciales afin d'explorer les émotions que le personnage peut transmettre. Ces variations permettent de mettre en valeur sa personnalité et de renforcer son expressivité, tout en conservant la cohérence de ses traits.</p><div class='pop-media-grid pop-gallery'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Character2D/Charac2DGirl-Emo_Neu.png' alt='Logo du portfolio - image 1'></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Character2D/Charac2DGirl-Emo_Col.png' alt='Logo du portfolio - image 2'></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Character2D/Charac2DGirl-Emo_Tri.png' alt='Logo du portfolio - image 3'></div></div></div></div>"
+    }
+]

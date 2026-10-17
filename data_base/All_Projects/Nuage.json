@@ -1,0 +1,28 @@
+[
+    {
+        "IdSection": 0,
+        "Name": "Nuage Prodigieux",
+        "Year": "2026",
+        "NbSection": 4,
+        "Tags": [
+            "Scolaire",
+            "Photoshop",
+            "Design 2D"
+        ]
+    },
+    {
+        "IdSection": 1,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><p style='font-size: 1rem; letter-spacing: 4px; margin-bottom: 20px;'>PRÉSENTATION DU PROJET</p><h2>Introduction</h2><p>Ce devoir, réalisé sur Photoshop, avait pour objectif de représenter des formations nuageuses à travers deux illustrations aux ambiances distinctes. Ce travail m'a amené à expérimenter différentes palettes de couleurs ainsi qu'à travailler sur la lumière et l'obscurité afin de créer des atmosphères visuelles contrastées.</p><p style='margin-top: 15px;'>Pour obtenir ces effets, j'ai utilisé plusieurs calques, notamment pour travailler les dégradés et les variations de luminosité, ainsi que des calques de réglage des niveaux. Ces techniques m'ont permis de renforcer les contrastes et de donner davantage de profondeur aux nuages, tout en créant une ambiance propre à chaque illustration.</p></div></div>"
+    },
+    {
+        "IdSection": 3,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2 class='text-center'>Premier dessin — Nuages Nocturne</h2><div class='flex gap20'><img src='../data_base/img/projets/Nuage_prodigieux/nuage_nuit.png' alt='Illustration du projet'><div><p>Ce premier dessin représente un ciel nocturne sur un fond bleu foncé, sur lequel se détachent des nuages aux teintes variées, allant du blanc pour les plus lumineux jusqu'au bleu violacé pour les nuages situés à l'arrière-plan. Ces variations de couleurs permettent de différencier les plans et de donner davantage de profondeur à la composition, tout en conservant une atmosphère sombre et nocturne.</p><p style='margin-top: 15px;'>Un éclair violet vient compléter la composition en apportant une source lumineuse contrastante au milieu de l'obscurité. Le travail sur les dégradés et les différents niveaux de luminosité permet ainsi de renforcer l'intensité de la scène et de mettre en valeur les nuages.</p></div></div></div></div>"
+    },
+    {
+        "IdSection": 3,
+        "Name": "image et Texte",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2 class='text-center'>Deuxième dessin — Nuages Crépusculaire</h2><div class='flex gap20'><div><p>Ce deuxième dessin met en scène un ciel aux teintes chaudes, dominées par l'orange et évoluant progressivement vers des zones plus sombres, jusqu'au noir. La lumière provenant du soleil orangé, situé à l'arrière-plan, illumine certaines parties des nuages et crée un contraste marqué avec les zones plongées dans l'ombre.</p><p style='margin-top: 15px;'>L'utilisation des dégradés et le travail sur la luminosité permettent de souligner les volumes des nuages et de renforcer l'impression de profondeur. Cette illustration repose ainsi sur l'opposition entre la lumière chaude du soleil et les silhouettes sombres des nuages, afin de créer une ambiance crépusculaire.</p></div><img src='../data_base/img/projets/Nuage_prodigieux/nuage_crépuscule.png' alt='Illustration du projet'></div></div></div>"
+    }
+]

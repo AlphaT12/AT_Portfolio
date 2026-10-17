@@ -1,0 +1,139 @@
+[
+    {
+        "IdSection": 0,
+        "Name": "Modelisation 3D Aquatique",
+        "Year": "2025",
+        "NbSection": 23,
+        "Tags": [
+            "Scolaire",
+            "Professionel",
+            "Maya",
+            "MudBox",
+            "Photoshop",
+            "Modélisation 3D"
+        ]
+    },
+    {
+        "IdSection": 1,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+    },
+
+
+    {
+        "IdSection": 2,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Introduction Corails</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+    },
+    {
+        "IdSection": 3,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Corail : Modelisation</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 4,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Corail : Scult et Texturing</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 5,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 6,
+        "Name": "Image seule",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Corail : Démo Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+    },
+    {
+        "IdSection": 7,
+        "Name": "Vidéo seule",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+    },
+
+
+    {
+        "IdSection": 8,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction Coquillage</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+    },
+    {
+        "IdSection": 9,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Référence</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 10,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Modelisation</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 11,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Texturing</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 12,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 13,
+        "Name": "Image seule",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Coquillage : Démo Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+    },
+    {
+        "IdSection": 14,
+        "Name": "Vidéo seule",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+    },
+
+    
+    {
+        "IdSection": 15,
+        "Name": "Introduction",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Introduction Stromatolithes</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+    },
+    {
+        "IdSection": 16,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithes : Référence</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 17,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithes : Modélisations.</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 18,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithes : Sculting</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 19,
+        "Name": "Texte et image",
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2></h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+    },
+    {
+        "IdSection": 20,
+        "Name": "Image seule",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Stromatolithes : Démo Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+    },
+    {
+        "IdSection": 21,
+        "Name": "Vidéo seule",
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+    },
+
+
+    {
+        "IdSection": 22,
+        "Name": "Image seule",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Plan Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+    },
+    {
+        "IdSection": 23,
+        "Name": "Image seule",
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+    }
+]
