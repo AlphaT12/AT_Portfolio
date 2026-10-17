@@ -1,4 +1,4 @@
-# Mon Portfolio
+# Mon Portfolio / v1.0.0.0
 
 Bienvenue sur mon portfolio ! 🎨
 
@@ -10,7 +10,7 @@ Merci de votre visite et bonne découverte de mon univers !
 
 --------------------------------------------------
 
-# My Portfolio
+# My Portfolio / v1.0.0.0
 
 Welcome to my portfolio! 🎨
 
