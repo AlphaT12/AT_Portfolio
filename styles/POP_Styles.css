@@ -522,3 +522,14 @@ footer p{
         font-size: .9rem;
     }
 }
+
+/* ============================================================
+   VIDÉOS YOUTUBE DANS LES SECTIONS POP
+   ============================================================ */
+
+.pop-video-youtube {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    max-height: none;
+    border: 0;
+}
