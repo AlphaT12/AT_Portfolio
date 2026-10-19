@@ -67,9 +67,7 @@
         "Img": "../data_base/img/icon/img_logo.png",
         "Href": "POP.html",
         "DataFile": "Debug.json",
-        "Keywords": [
-            "Debug"
-        ]
+        "Keywords": []
     },
     
     {
