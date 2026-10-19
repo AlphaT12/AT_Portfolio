@@ -56,10 +56,6 @@
             {
                 "Name": "Blender",
                 "Checked": true
-            },
-            {
-                "Name": "Debug",
-                "Checked": false
             }
         ]
     },
