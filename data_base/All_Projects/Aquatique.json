@@ -16,124 +16,124 @@
     {
         "IdSection": 1,
         "Name": "Introduction",
-        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction</h2><p>Ce projet, réalisé sur une période de six semaines, avait pour objectif de concevoir et de réaliser différents éléments 3D aquatiques destinés à être intégrés dans une scène sous-marine. Cette mission s'inscrivait dans une démarche de production visant à créer un ensemble cohérent d'assets, adaptés aux exigences visuelles et techniques d'un environnement 3D.</p><p>La mission qui m'a été confiée portait sur la modélisation et le texturing de différents props aquatiques, avec pour objectif de constituer une bibliothèque d'éléments pouvant être assemblés afin de créer une scène sous-marine complète.</p></div></div>"
     },
 
 
     {
         "IdSection": 2,
         "Name": "Introduction",
-        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Introduction Corails</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Introduction Corail</h2><p>Pour Mon premier modèle 3D était un corail, avec une structure ramifiée et des formes organiques inspirées des coraux naturels.</p></div></div>"
     },
     {
         "IdSection": 3,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Corail : Modelisation</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Corail : Modelisation</h2><div class='pop-media-grid'><div class='pop-media-item'><p>La modélisation du corail a débuté sur Maya par la création de courbes définissant ses différentes ramifications. L'outil Sweep Mesh a ensuite été utilisé pour générer leurs volumes, avant de fusionner les maillages afin d'obtenir le modèle Low-Poly final. Enfin, les UVs ont été dépliés en vue de l'exportation du modèle.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/corail_maya.png' alt='Logo du portfolio'></div></div></div></div>"
     },
     {
         "IdSection": 4,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Corail : Scult et Texturing</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Corail : Scult et Texturing</h2><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/corail_pochoir.png' alt='Logo du portfolio'></div><div class='pop-media-item'><p>Sur Mudbox, je me suis appuyé sur l'image de référence pour créer un pochoir reproduisant les motifs et les reliefs du corail. À l'aide des outils de sculpture, j'ai appliqué ces détails sur la surface du modèle afin d'obtenir un relief plus marqué, permettant de renforcer les variations de lumière et d'ombrage pour un rendu plus réaliste.</p></div></div></div></div>"
     },
     {
         "IdSection": 5,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>À l'aide du pochoir, j'ai augmenté le niveau de subdivision du corail afin d'obtenir une surface plus lisse et de supprimer l'aspect anguleux du modèle Low-Poly initial. J'ai ensuite appliqué les détails du pochoir sur le modèle subdivisé en niveau 6 pour accentuer les contrastes et les reliefs, avant d'ajouter une texture reprenant les couleurs de l'image de référence.</p><p>Pour finaliser le travail sur Mudbox, j'ai exporté le modèle au niveau de subdivision 0 afin de conserver sa version Low-Poly, puis généré une map de Displacement et une map Diffuse à partir des détails sculptés et du travail de texturing.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/corail_mudbox.jpg' alt='Logo du portfolio'></div></div></div></div>"
     },
     {
         "IdSection": 6,
         "Name": "Image seule",
-        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Corail : Démo Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Corail : Démo Finale</h2><p>Pour réaliser le rendu de la branche de corail, j'ai créé une nouvelle scène sur Maya dans laquelle j'ai intégré le modèle et mis en place l'éclairage. J'ai ensuite connecté les maps Diffuse et Displacement au matériau, puis ajusté les paramètres de l'objet afin d'obtenir un rendu avec un niveau de subdivision 6.</p><p>Enfin, j'ai animé la rotation de la branche de corail sur elle-même. J'ai également créé une animation de la lumière pour qu'elle effectue une rotation autour du modèle, mettant ainsi en valeur ses reliefs et ses variations de texture.</p><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/corail_HD.png' alt='Logo du portfolio'></div></div>"
     },
     {
         "IdSection": 7,
         "Name": "Vidéo seule",
-        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/vid/Aquatique/demo_corail_01.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
     },
 
 
     {
         "IdSection": 8,
         "Name": "Introduction",
-        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction Coquillage</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Introduction Coquillage</h2><p>Mon deuxième modèle 3D était un coquillage, avec une forme courbée et des stries caractéristiques inspirées des coquilles saint-jaques naturels.</p></div></div>"
     },
     {
         "IdSection": 9,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Référence</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Référence</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Je me suis appuyé sur une image de référence en 2D pour concevoir le modèle 3D du coquillage. J'ai identifié trois éléments principaux dans sa structure : la coquille centrale et deux excroissances situées à son extrémité, en adaptant leurs formes et leurs volumes pour obtenir un modèle tridimensionnel cohérent.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/coqui_ref.jpg' alt='Logo du portfolio'></div></div></div></div>"
     },
     {
         "IdSection": 10,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Modelisation</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Modelisation</h2><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/coqui_maya.png' alt='Logo du portfolio'></div><div class='pop-media-item'><p>La modélisation sur Maya a débuté par la création d'un plan (Plane), dont j'ai tracé le contour en m'appuyant sur l'image de référence en 2D. J'ai ensuite déformé la géométrie afin de lui donner du volume et d'obtenir la forme caractéristique d'une coquille Saint-Jacques, avant d'affiner le maillage pour finaliser sa version Low-Poly.</p><p>Enfin, j'ai réalisé le dépliage des UVs afin de préparer le modèle aux étapes suivantes de texturing.</p></div></div></div></div>"
     },
     {
         "IdSection": 11,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Texturing</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed'><h2>Coquillage : Texturing</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Pour créer la map Diffuse, j'ai commencé par exporter une capture des UVs de ma coquille Saint-Jacques afin de servir de guide pour la création de la texture sur Photoshop. J'ai d'abord réalisé une texture en pixel art, en utilisant notamment un flou gaussien pour atténuer les pixels apparents. Le résultat ne répondant pas à mes attentes, j'ai repris l'image de référence et utilisé l'outil « Déformation de la marionnette » pour adapter ses formes aux UVs et obtenir un résultat plus fidèle au modèle.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/coqui_diffuse.png' alt='Logo du portfolio'></div></div></div></div>"
     },
     {
         "IdSection": 12,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/coqui_bump.png' alt='Logo du portfolio'></div><div class='pop-media-item'><p>Pour créer la map Bump, j'ai repris la texture Diffuse comme base, puis utilisé des calques de Teinte/Saturation et de Niveaux sur Photoshop afin de la convertir en niveaux de gris. J'ai ensuite effectué plusieurs ajustements supplémentaires pour affiner les contrastes et obtenir un relief plus convaincant, permettant de renforcer le réalisme des ombrages lors du rendu sur Maya.</p></div></div></div></div>"
     },
     {
         "IdSection": 13,
         "Name": "Image seule",
-        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Coquillage : Démo Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Coquillage : Démo Finale</h2><p>Pour réaliser le rendu de ma coquille Saint-Jacques, j'ai créé une nouvelle scène sur Maya, dans laquelle j'ai intégré le modèle 3D et mis en place l'éclairage. J'ai ensuite connecté les maps Diffuse et Bump au matériau afin de restituer les couleurs et les reliefs de la coquille.</p><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/coqui_HD.png' alt='Logo du portfolio'></div></div>"
     },
     {
         "IdSection": 14,
         "Name": "Vidéo seule",
-        "HTMLShema": "<div class='section'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/vid/Aquatique/demo_coquillage.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
     },
 
     
     {
         "IdSection": 15,
         "Name": "Introduction",
-        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Introduction Stromatolithes</h2><p>Cette page rassemble les différentes mises en page disponibles pour les pages de projets POP : textes, images, vidéos, galeries, colonnes et liens.</p><p>Chaque section présente une possibilité distincte afin de servir de référence pour créer de futurs projets.</p></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Introduction Stromatolithe</h2><p>Mon troisième modèle 3D était un stromatolithe fossile, dont la structure complexe et les formes irrégulières ont nécessité un travail de modélisation plus long que pour mes deux précédents modèles.</p></div></div>"
     },
     {
         "IdSection": 16,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithes : Référence</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithe : Référence</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Je me suis appuyé sur cette image de référence pour modéliser un stromatolithe fossile, caractérisé par une forme irrégulière et une surface rocheuse. Afin de reproduire cet aspect naturel, un travail de sculpture a été nécessaire pour apporter du relief et accentuer les aspérités de sa surface.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/stroma_ref.png' alt='Logo du portfolio'></div></div></div></div>"
     },
     {
         "IdSection": 17,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithes : Modélisations.</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithe : Modélisations.</h2><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/stroma_maya.png' alt='Logo du portfolio'></div><div class='pop-media-item'><p>La modélisation du stromatolithe sur Maya a débuté par l'analyse de sa forme générale afin de définir une base adaptée à la création du maillage Low-Poly. La première version étant trop arrondie par rapport à l'image de référence, j'ai ajusté ses proportions pour obtenir une silhouette plus ovale. J'ai ensuite réalisé le dépliage des UVs avant d'exporter le modèle vers Mudbox pour poursuivre son travail de sculpture.</p></div></div></div></div>"
     },
     {
         "IdSection": 18,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithes : Sculting</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><h2>Stromatolithe : Sculting</h2><div class='pop-media-grid'><div class='pop-media-item'><p>Le modèle Low-Poly initial étant encore éloigné de l'image de référence, le travail de sculpture sur Mudbox a nécessité un temps de réalisation important. J'ai commencé par concevoir un pochoir adapté au stromatolithe, en analysant les irrégularités et l'aspect rocheux de sa surface. J'ai ensuite créé ce pochoir sur Photoshop au format 250 × 250 pixels afin de reproduire ces caractéristiques lors de la sculpture.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/stroma_pochoir.png' alt='Logo du portfolio'></div></div></div></div>"
     },
     {
         "IdSection": 19,
         "Name": "Texte et image",
-        "HTMLShema": "<div class='section grey'><div class='boxed'><h2></h2><div class='pop-media-grid'><div class='pop-media-item'><p>Cette mise en page associe un texte descriptif à une image. Elle convient notamment pour expliquer une étape de conception, présenter un modèle 3D ou détailler un choix artistique.</p><p>Le texte peut être plus ou moins long selon le contenu du projet.</p></div><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed'><div class='pop-media-grid'><div class='pop-media-item'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/stroma_mudbox.jpg' alt='Logo du portfolio'></div><div class='pop-media-item'><p>J'ai commencé par augmenter le niveau de subdivision du modèle à 4, puis utilisé les outils de sculpture de Mudbox pour lui donner une surface irrégulière et un aspect rocheux. J'ai travaillé progressivement sa silhouette en déformant ses volumes, en sculptant de petites cavités sur sa partie supérieure et en ajoutant des excroissances à sa base. Enfin, j'ai affiné sa forme générale afin de me rapprocher davantage de l'aspect naturel du stromatolithe.</p><p>Une fois le travail de sculpture terminé, j'ai généré la map Displacement afin de restituer les reliefs détaillés du modèle.</p></div></div></div></div>"
     },
     {
         "IdSection": 20,
         "Name": "Image seule",
-        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Stromatolithes : Démo Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><h2>Stromatolithe : Démo Finale</h2><p>Pour réaliser le rendu du stromatolithe, j'ai créé une nouvelle scène sur Maya, dans laquelle j'ai intégré le modèle 3D et mis en place l'éclairage. J'ai ensuite connecté la map Displacement au matériau et ajusté les paramètres de l'objet afin d'obtenir un rendu avec un niveau de subdivision 6. Contrairement aux précédents modèles, la map Diffuse a été créée directement sur Maya à l'aide d'un nœud de rendu *Fractal*, permettant de générer une texture procédurale.Enfin, j'ai animé la rotation du stromatolithe sur lui-même, ainsi que celle de la lumière autour du modèle, afin de mettre en valeur ses reliefs et les détails de sa surface sous différents angles.</p><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/stroma_HD.png' alt='Logo du portfolio'></div></div>"
     },
     {
         "IdSection": 21,
         "Name": "Vidéo seule",
-        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/All_Projects/debug-media/video-simple.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
+        "HTMLShema": "<div class='section grey'><div class='boxed text-center'><div class='pop-video-wrap'><video class='pop-video' controls preload='metadata' playsinline><source src='../data_base/vid/Aquatique/demo_stromato.mp4' type='video/mp4'>Votre navigateur ne prend pas en charge la lecture vidéo.</video></div></div></div>"
     },
 
 
     {
         "IdSection": 22,
         "Name": "Image seule",
-        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Plan Finale</h2><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><h2>Plan Finale</h2><p>Pour le plan final, j'ai exporté les différents modèles 3D réalisés afin de les intégrer dans une scène préalablement préparée, équipée d'une caméra avec un effet fisheye. J'ai commencé par disposer les stromatolithes à l'arrière-plan, en les utilisant comme des formations rocheuses afin de respecter les différences d'échelle entre les éléments. Cette disposition m'a permis de structurer la scène et de mettre en valeur l'ensemble des modèles. J'ai ensuite regroupé mes deux branches de corail pour créer plusieurs ensembles, répartis dans différentes zones de l'environnement. Enfin, j'ai disposé les coquilles Saint-Jacques de part et d'autre de la scène, en variant leur orientation et en superposant certaines d'entre elles pour apporter davantage de variété à la composition finale.</p><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/scene_aquatique.jpg' alt='Logo du portfolio'></div></div>"
     },
     {
         "IdSection": 23,
         "Name": "Image seule",
-        "HTMLShema": "<div class='section'><div class='boxed text-center'><p>Une image présentée sans texte descriptif, pour mettre en valeur un rendu ou une illustration.</p><img class='pop-demo-image' src='../data_base/img/icon/img_logo.png' alt='Logo du portfolio'></div></div>"
+        "HTMLShema": "<div class='section'><div class='boxed text-center'><img class='pop-demo-image' src='../data_base/img/projets/Aquatique/final_aquatique.jpg' alt='Logo du portfolio'></div></div>"
     }
 ]
