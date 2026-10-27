@@ -1,1 +1,171 @@
+
+# ==================================================
+# PORTFOLIO - REGLES GIT ATTRIBUTES
+# ==================================================
+
+# Fichiers texte : normalisation automatique des fins de ligne
+* text=auto
+
+# ==================================================
+# CODE ET FICHIERS DE CONFIGURATION
+# ==================================================
+
+*.html text
+*.htm text
+*.css text
+*.js text
+*.mjs text
+*.cjs text
+*.json text
+*.xml text
+*.svg text
+*.txt text
+*.md text
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.cfg text
+*.conf text
+*.csv text
+*.webmanifest text
+
+# ==================================================
+# VIDEOS - NE JAMAIS MODIFIER LES DONNEES BINAIRES
+# ==================================================
+
 *.mp4 binary
+*.m4v binary
+*.mov binary
+*.webm binary
+*.mkv binary
+*.avi binary
+*.wmv binary
+*.flv binary
+*.mpeg binary
+*.mpg binary
+*.3gp binary
+*.ogv binary
+*.ts binary
+*.mts binary
+
+# ==================================================
+# IMAGES ET TEXTURES
+# ==================================================
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.jfif binary
+*.gif binary
+*.webp binary
+*.bmp binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.icns binary
+*.exr binary
+*.hdr binary
+*.tga binary
+*.dds binary
+*.ktx binary
+*.ktx2 binary
+*.psd binary
+*.psb binary
+*.ai binary
+*.ase binary
+*.aseprite binary
+*.kra binary
+*.xcf binary
+*.heic binary
+*.heif binary
+*.avif binary
+*.raw binary
+
+# ==================================================
+# AUDIO
+# ==================================================
+
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.oga binary
+*.flac binary
+*.aac binary
+*.m4a binary
+*.wma binary
+*.aiff binary
+*.aif binary
+*.opus binary
+*.mid binary
+*.midi binary
+
+# ==================================================
+# MODELES 3D ET FICHIERS DE PRODUCTION
+# ==================================================
+
+*.fbx binary
+*.obj binary
+*.mtl binary
+*.blend binary
+*.ma binary
+*.mb binary
+*.max binary
+*.c4d binary
+*.3ds binary
+*.stl binary
+*.glb binary
+*.gltf binary
+*.usd binary
+*.usda binary
+*.usdc binary
+*.abc binary
+*.dae binary
+*.ply binary
+*.vdb binary
+*.ztl binary
+*.zpr binary
+*.uasset binary
+*.umap binary
+*.pak binary
+
+# ==================================================
+# ARCHIVES ET DOCUMENTS BINAIRES
+# ==================================================
+
+*.zip binary
+*.7z binary
+*.rar binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# ==================================================
+# POLICES
+# ==================================================
+
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+
+# ==================================================
+# FICHIERS EXECUTABLES ET BINAIRES
+# ==================================================
+
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.bin binary
+*.dat binary
+*.wasm binary
